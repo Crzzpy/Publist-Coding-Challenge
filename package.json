@@ -1,0 +1,18 @@
+{
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "test": "jest",
+    "postinstall": "node ./database/init.js"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "jest": "^23.4.1",
+    "micro": "^9.3.2",
+    "pg": "^7.4.3",
+    "request": "^2.87.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.2.0"
+  }
+}
